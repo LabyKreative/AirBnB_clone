@@ -1,4 +1,4 @@
-AirBnB clone - The console
+AirBnB clone - The console (team project)
 
 ![Logo](https://cdn.freebiesupply.com/logos/large/2x/airbnb-2-logo-png-transparent.png)
 
