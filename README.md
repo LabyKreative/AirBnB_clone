@@ -1,5 +1,5 @@
 # AirBnB clone - The console
-![Logo](https://cdn.freebiesupply.com/logos/large/2x/airbnb-2-logo-png-transparent.png)
+![Logo](https://cdn.freebiesupply.com/logos/large/2x/airbnb-2-logo-png-transparent.png =400x400)
 
 ## Project description:
 
