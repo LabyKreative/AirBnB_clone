@@ -14,18 +14,63 @@ AirBnB clone - The console
 ### How to start the console
 
 - First of all, you'll have to own this repository by:
-  `git clone https://github.com/LabyKreative/AirBnB_clone.git`
-- Navigate to the AirBnB directory: `cd AirBnB_clone`
+
+```bash
+  git clone https://github.com/LabyKreative/AirBnB_clone.git
+```
+
+- Navigate to the AirBnB directory:
+
+```bash
+cd AirBnB_clone
+```
 
 ### How to use the console
 
 - The console has two mode you can run it as:
 
-1. **Interactive Mode:** which you can run with `./console` then enter cmd
+1. **Interactive Mode:** which you can run with
+
+```bash
+./console
+(hbnb) help
+
+Documented commands (type <topic>):
+========================================
+EOF help quit
+
+(hbnb)
+(hbnb)
+(hbnb) quit
+$
+```
+
 2. **Non-Interactive Mode:** which you can run with
-   `echo "your_command_here" | ./console.py`
+
+```bash
+$ echo "help" | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb)
+$
+$ cat test_help
+help
+$
+$ cat test_help | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb)
+$
+```
 
 ### Examples
 
 - Coming soon
 - and soon...
+
