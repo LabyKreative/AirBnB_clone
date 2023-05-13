@@ -101,7 +101,7 @@ class HBNBCommand(cmd.Cmd):
 
     def do_create(self, arg):
         """Usage: create <class>
-        Create a new instance and print its id.
+        Create a new class instance and print its id.
         """
         argl = parse(arg)
         if len(argl) == 0:
