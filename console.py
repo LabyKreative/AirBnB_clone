@@ -91,15 +91,7 @@ class HBNBCommand(cmd.Cmd):
         return False
 
     def do_quit(self, arg):
-        """Quit the command interpreter.
-
-
-        Args:
-            arg (str): The command argument.
-
-        Returns:
-            bool: True to exit the program.
-        """
+        """Quit command to exit the program."""
         return True
 
     def do_EOF(self, arg):
@@ -108,16 +100,8 @@ class HBNBCommand(cmd.Cmd):
         return True
 
     def do_create(self, arg):
-        """Create a new instance of a class.
-
-        Args:
-            arg (str): The command argument.
-
-        Usage:
-            create <class>
-
-        Returns:
-            None
+        """Usage: create <class>
+        Create a new instance and print its id.
         """
         argl = parse(arg)
         if len(argl) == 0:
