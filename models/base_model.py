@@ -9,7 +9,7 @@ class BaseModel:
     """Represents the base model of the HBnB project."""
 
     def __init__(self, *args, **kwargs):
-        """Initialize a new BaseModel.
+        """Initializes a new BaseModel.
 
         Args:
             *args: Unused positional arguments.
@@ -29,7 +29,7 @@ class BaseModel:
             models.storage.new(self)
 
     def save(self):
-        """Update the 'updated_at' attribute with the current datetime and save the model."""
+        """Updates the 'updated_at' attribute with the current datetime and save the model."""
         self.updated_at = datetime.today()
         models.storage.save()
 
