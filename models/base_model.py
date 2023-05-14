@@ -22,14 +22,16 @@ class BaseModel:
         if kwargs:
             for key, value in kwargs.items():
                 if key == "created_at" or key == "updated_at":
-                    self.__dict__[key] = datetime.strptime(value, timestamp_format)
+                    self.__dict__[key] = datetime.strptime(
+                            value, timestamp_format)
                 else:
                     self.__dict__[key] = value
         else:
             models.storage.new(self)
 
     def save(self):
-        """Updates the 'updated_at' attribute with the current datetime and save the model."""
+        """Updates the 'updated_at' attribute with
+        the current datetime and save the model."""
         self.updated_at = datetime.today()
         models.storage.save()
 
