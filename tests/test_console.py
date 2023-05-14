@@ -11,6 +11,7 @@ Unittest classes:
     TestHBNBCommand_destroy
     TestHBNBCommand_update
 """
+import sys
 import os
 import unittest
 from models import storage
@@ -115,7 +116,7 @@ class TestHBNBCommand_exit(unittest.TestCase):
     def test_EOF_exits(self):
         with patch("sys.stdout", new=StringIO()) as output:
             self.assertTrue(HBNBCommand().onecmd("EOF"))
-            self.assertEqual(output.getvalue(), "")
+            self.assertEqual(output.getvalue(), "\n")
 
 
 class TestHBNBCommand_create(unittest.TestCase):
