@@ -11,7 +11,7 @@ Unittest classes:
     TestHBNBCommand_destroy
     TestHBNBCommand_update
 """
-import sys
+import sys # noqa
 import os
 import unittest
 from models import storage
