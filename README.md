@@ -77,5 +77,5 @@ $
 
 ### Authors
 
-- **Credoecspa** [![Gmail Logo](https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png)](mailto:ezejioforchiemerie708@gmail.com) ~ [![GitHub Logo](https://cdn-icons-png.flaticon.com/512/25/25231.png)](https://github.com/Credoecspa)
-- **LabyKreative** [![Gmail Logo](https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png)](mailto:labykreative@yahoo.com) ~ [![GitHub Logo](https://cdn-icons-png.flaticon.com/512/25/25231.png)](https://github.com/LabyKreative)
+- **Credoecspa** [![Gmail Logo](https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png)](mailto:ezejioforchiemerie708@gmail.com) [![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)](https://github.com/Credoecspa)
+- **LabyKreative** [![Gmail Logo](https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png)](mailto:labykreative@yahoo.com) [![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)](https://github.com/LabyKreative)
