@@ -71,6 +71,11 @@ $
 
 ### Examples
 
-- Coming soon
-- and soon...
+- The codes were tested using **unittest** module and **flake8** for pycodestyle
+- The tests cases are in test directories in different level in the project
+- And the `console.py` works perfectly as expected
 
+### Authors
+
+- **Credoecspa** <ezejioforchiemerie708@gmail.com> ~ (https://github.com/Credoecspa)
+- **LabyKreative** <labykreative@yahoo.com> ~ (https://hithub.com/LabyKreative)
