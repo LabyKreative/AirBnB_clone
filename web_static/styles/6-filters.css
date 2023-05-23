@@ -6,7 +6,20 @@
   border-radius: 4px;
 }
 
-.filters_amenities:hover .popover {
+.filter_amenities {
+  display: inline;
+  vertical-align: middle;
+  height: 100%;
+  float: left;
+  width: 25%;
+  line-height: 20px;
+}
+
+.filter_amenities:hover .popover {
+  display: inline-block;
+}
+
+.amenities:hover .popover {
   display: inline-block;
 }
 
@@ -24,19 +37,6 @@
   display: inline-block;
 }
 
-.amenities {
-  height: 100%;
-  width: 25%;
-  display: inline;
-  vertical-align: middle;
-  line-height: 20px;
-  float: left;
-}
-
-.amenities:hover .popover {
-  display: inline-block;
-}
-
 .popover {
   background-color: #fafafa;
   width: 100%;
@@ -50,6 +50,12 @@
 
 .popover:hover .popover {
   display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  padding-bottom: 10px;
 }
 
 h2 {
@@ -69,12 +75,6 @@ h4 {
   font-weight: 400;
   margin: 5px 0px 5px 0px;
   padding-left: 40px;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0px;
-  padding-bottom: 10px;
 }
 
 button {
