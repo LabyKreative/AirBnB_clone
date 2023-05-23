@@ -77,5 +77,5 @@ $
 
 ### Authors
 
-- **Credoecspa** <ezejioforchiemerie708@gmail.com> ~ (https://github.com/Credoecspa)
-- **LabyKreative** <labykreative@yahoo.com> ~ (https://github.com/LabyKreative)
+- **Credoecspa** [GitHub](https://github.com/Credoecspa) ~ [Email](ezejioforchiemerie708@gmail.com)
+- **LabyKreative** [GitHub](https://github.com/LabyKreative) ~ [Email](labykreative@yahoo.com)
