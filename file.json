@@ -1,1 +1,37 @@
-{"BaseModel.2c320ed0-69b6-4a1f-b8ef-000f42ce25bb": {"id": "2c320ed0-69b6-4a1f-b8ef-000f42ce25bb", "created_at": "2023-05-14T10:58:28.709858", "updated_at": "2023-05-14T10:58:28.709878", "name": "My_First_Model", "my_number": 89, "__class__": "BaseModel"}, "BaseModel.00e034cc-9efd-4cde-92e3-7b34ab34c6a4": {"id": "00e034cc-9efd-4cde-92e3-7b34ab34c6a4", "created_at": "2023-05-14T10:59:58.313131", "updated_at": "2023-05-14T10:59:58.313141", "name": "My_First_Model", "my_number": 89, "__class__": "BaseModel"}, "BaseModel.e5e04e2d-ac78-43c5-843d-093c6922ff46": {"id": "e5e04e2d-ac78-43c5-843d-093c6922ff46", "created_at": "2023-05-14T11:09:26.105242", "updated_at": "2023-05-14T11:09:26.105496", "name": "My First Model", "my_number": 89, "__class__": "BaseModel"}, "User.16725bbe-dbee-4a1d-992a-8f8f5f636c72": {"id": "16725bbe-dbee-4a1d-992a-8f8f5f636c72", "created_at": "2023-05-14T11:13:50.605640", "updated_at": "2023-05-14T11:13:50.605658", "first_name": "Betty", "last_name": "Bar", "email": "airbnb@mail.com", "password": "root", "__class__": "User"}, "User.ffb8d2e6-1cf3-4d8c-80de-9ecb8b2cbef4": {"id": "ffb8d2e6-1cf3-4d8c-80de-9ecb8b2cbef4", "created_at": "2023-05-14T11:13:50.606061", "updated_at": "2023-05-14T11:13:50.606073", "first_name": "John", "email": "airbnb2@mail.com", "password": "root", "__class__": "User"}}
+{
+  "BaseModel.2c320ed0-69b6-4a1f-b8ef-000f42ce25bb": {
+    "id": "2c320ed0-69b6-4a1f-b8ef-000f42ce25bb",
+    "created_at": "2023-05-14T10:58:28.709858",
+    "updated_at": "2023-05-14T10:58:28.709878",
+    "name": "My_First_Model",
+    "my_number": 89,
+    "__class__": "BaseModel"
+  },
+  "BaseModel.00e034cc-9efd-4cde-92e3-7b34ab34c6a4": {
+    "id": "00e034cc-9efd-4cde-92e3-7b34ab34c6a4",
+    "created_at": "2023-05-14T10:59:58.313131",
+    "updated_at": "2023-05-14T10:59:58.313141",
+    "name": "My_First_Model",
+    "my_number": 89,
+    "__class__": "BaseModel"
+  },
+  "BaseModel.e5e04e2d-ac78-43c5-843d-093c6922ff46": {
+    "id": "e5e04e2d-ac78-43c5-843d-093c6922ff46",
+    "created_at": "2023-05-14T11:09:26.105242",
+    "updated_at": "2023-05-14T11:09:26.105496",
+    "name": "My First Model",
+    "my_number": 89,
+    "__class__": "BaseModel"
+  },
+  "User.ffb8d2e6-1cf3-4d8c-80de-9ecb8b2cbef4": {
+    "id": "ffb8d2e6-1cf3-4d8c-80de-9ecb8b2cbef4",
+    "created_at": "2023-05-14T11:13:50.606061",
+    "updated_at": "2023-05-14T11:13:50.606073",
+    "first_name": "Chimsale",
+    "email": "airbnb2@mail.com",
+    "password": "root",
+    "name": "Khumbize",
+    "age": 21,
+    "__class__": "User"
+  }
+}
