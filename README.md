@@ -1,4 +1,4 @@
-AirBnB clone - The console (team project)
+# AirBnB clone - The console (team project)
 
 ![Logo](https://cdn.freebiesupply.com/logos/large/2x/airbnb-2-logo-png-transparent.png)
 
@@ -29,7 +29,7 @@ cd AirBnB_clone
 
 - The console has two mode you can run it as:
 
-1. **Interactive Mode:** which you can run with
+a. **Interactive Mode:** which you can run with
 
 ```bash
 ./console
@@ -45,7 +45,7 @@ EOF help quit
 $
 ```
 
-2. **Non-Interactive Mode:** which you can run with
+b. **Non-Interactive Mode:** which you can run with
 
 ```bash
 $ echo "help" | ./console.py
@@ -74,6 +74,80 @@ $
 - The codes were tested using **unittest** module and **flake8** for pycodestyle
 - The tests cases are in test directories in different level in the project
 - And the `console.py` works perfectly as expected
+
+### Example 0: Create an object
+
+```bash
+(hbnb) create BaseModel
+```
+
+```bash
+(hbnb) create BaseModel
+1234567890
+(hbnb)
+```
+
+#### Example 1: Show an object
+
+```bash
+(hbnb) show 1234567890
+[BaseModel] (1234567890) {'id': '1234567890', 'created_at': datetime.datetime(2020, 2, 18, 14, 21, 12, 96959),
+'updated_at': datetime.datetime(2020, 2, 18, 14, 21, 12, 96971)}
+(hbnb)
+```
+
+#### Example 2: Destroy an object
+
+```bash
+(hbnb) destroy BaseModel 1234567890
+(hbnb) show BaseModel 1234567890
+** no instance found **
+(hbnb)
+```
+
+#### Example 3: Update an object
+
+```bash
+(hbnb) update BaseModel 1234567890 first_name "person"
+(hbnb) show BaseModel 1234567890
+[BaseModel] (1234567890) {'id': '1234567890', 'created_at': datetime.datetime(2020, 2, 18, 14, 33, 45, 729889),
+'updated_at': datetime.datetime(2020, 2, 18, 14, 33, 45, 729907), 'first_name': 'person'}
+(hbnb)
+```
+
+#### Example 0: Show all User objects
+
+```bash
+(hbnb) User.all()
+["[User] (1234567890) {'updated_at': datetime.datetime(2020, 2, 19, 21, 47, 34, 92071), 'id': '1234567890', 'created_at': datetime.datetime(2020, 2, 19, 21, 47, 34, 92056)}", "[User] (1234567890) {'updated_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134362), 'id': '1234567890', 'created_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134343)}"]
+```
+
+#### Example 1: Destroy a User
+
+```bash
+(hbnb) User.destroy("1234567890")
+(hbnb)
+(hbnb) User.all()
+(hbnb) ["[User] (1234567890) {'updated_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134362), 'id': '1234567890', 'created_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134343)}"]
+```
+
+#### Example 2: Update User (by attribute)
+
+```bash
+(hbnb) User.update("1234567890", name "Todd the Toad")
+(hbnb)
+(hbnb) User.all()
+(hbnb) ["[User] (1234567890) {'updated_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134362), 'id': '1234567890', 'name': 'Todd the Toad', 'created_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134343)}"]
+```
+
+#### Example 3: Update User (by dictionary)
+
+```bash
+(hbnb) User.update("1234567890", {'name': 'Fred the Frog', 'age': 9})
+(hbnb)
+(hbnb) User.all()
+(hbnb) ["[User] (1234567890) {'updated_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134362), 'name': 'Fred the Frog', 'age': 9, 'id': '1234567890', 'created_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134343)}"]
+```
 
 ### Authors
 
